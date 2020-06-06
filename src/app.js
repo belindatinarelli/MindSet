@@ -1,4 +1,5 @@
 'use strict';
+//MINDSET
 
 // ------------------------------------------------------------------
 // APP INITIALIZATION
@@ -493,7 +494,7 @@ app.setHandler({
 
                 //Perché mi fa un calcolo sbagliato???????????????????
                 let differenza = user.paura.valore - numero2
-                
+
                 this.ask('La tua preoccupazione, vale ' + differenza + ' volte meno rispetto alla tua più grande paura, non è la cosa peggiore del mondo, giusto?')
                 this.followUpState('CinqueState')
             } else {
